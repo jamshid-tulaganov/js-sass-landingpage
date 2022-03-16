@@ -1,0 +1,413 @@
+@include breakpoint_up(large){
+    .contain{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .nav{
+        width: 100%;
+        &__link{
+          font-size: 0.875rem;  
+         span{
+             margin-right: 2px;
+         }
+        }
+    }
+    .logo{
+        width: 20%;
+        margin-right: 20px;
+        text-decoration: none;
+        color:#353535;
+        img:hover{
+            cursor: pointer;
+        }
+        span{
+            font-size: 1.5rem;
+        }
+    }
+    .search{
+        margin-right: 15px;
+        input{
+            width: 80%;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+    .product{
+        height: 80px;
+        &__item{
+            img{
+                width: 45px;
+                height: 45px;
+                margin-top: 5px;
+            }
+            img:hover{
+                cursor: pointer;
+            }
+        }
+        &__name{
+            font-size: 0.875rem;
+            line-height: 1.2;
+        }
+        &__name:hover{
+            cursor: pointer;
+        }
+
+    }
+    // services
+    .service{
+        &__header{
+            padding-top: 15px;
+            padding-left: 15px;
+            height: 40px;
+            font-size: 1.2rem;
+        }
+        &__item{
+            padding:0px 15px;
+        }
+    }
+    // carosel
+    .carousel-caption{
+        padding-left: 30px;
+    }
+    .caption__txt{
+        margin-bottom: 50px;
+    }
+    .caption__header{
+        font-size: 2rem;
+    }
+    .caption__fact{
+        margin-bottom: 50px;
+    }
+    .carousel-item > img{
+        transform: translate(-10%,20%);
+    }
+    // gift
+    .gift{
+        padding: 180px 30px 30px 30px;
+        &__header{
+            margin-bottom: 10px;
+        }
+        &__link{
+            display: inline-block;
+            width: 150px;
+        }
+    }
+    // news
+    .news{
+        margin-top: 60px;
+        padding: 0 10px;
+    }
+    .news__header{
+        margin-bottom: 30px;
+    }
+    .news__main{
+        padding-right: 10px;
+        &__logo{
+            margin-bottom: 10px;
+        }
+        &__header{
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        &__txt{
+            margin-bottom: 30px;
+        }
+    }
+    .news__part{
+        &__img{
+            margin-right: 5px;
+        }
+        &__logo{
+            margin-bottom: 5px;
+        }
+        &__header{
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+        }
+    }
+    // products
+    .product-list{
+        margin-top: 100px;
+        padding: 0;
+        h1{
+            margin-bottom: 10px;
+        }
+        &__1{
+            p:nth-child(1){
+                margin-top: 30px;
+                margin-bottom: 8px;
+            }
+            h2{
+                margin-bottom: 8px;
+            }
+        
+        }
+        &__2{
+            padding-left: 200px;
+            div{
+                padding: 0;
+            }
+        }
+        &__3{
+            padding-top: 60px;
+            padding-left: 15px;
+            div{
+                padding: 0;
+            }
+            p,h2{
+                width: 300px;
+            }
+            a{
+                margin-top: 5px;
+            }
+        }
+    }
+
+}
+// hide for mobile
+@include breakpoint_up(xlarge){
+    .contain{
+        width: 90%;
+    }
+    .nav{
+        width: 100%;
+        &__link{
+          font-size: 1rem;  
+         span{
+             margin-right: 4px;
+         }
+        }
+    }
+    .product{
+        height: 100px;
+        &__item{
+            img{
+                width: 60px;
+                height: 60px;
+                margin-top: 10px;
+            }
+        }
+        &__name{
+            font-size: 1rem;
+            line-height: 30px;
+        }
+    }
+    .service{
+        &__header{
+            padding-top: 15px;
+            padding-left: 15px;
+            height: 40px;
+            font-size: 1.2rem;
+        }
+        &__item{
+            padding-left: 15px;
+        }
+    }
+    // news
+    .news{
+        margin-top: 60px;
+        padding: 0px 30px;
+    }
+    .news__header{
+        margin-bottom: 30px;
+    }
+    .news__main{
+        padding-right: 15px;
+        &__img{
+            margin-bottom: 15px;
+        }
+        &__logo{
+            margin-bottom: 15px;
+        }
+        &__header{
+            margin-bottom: 15px;
+        }
+        &__txt{
+            margin-bottom: 40px;
+        }
+    }
+    .news__part{
+        &__logo{
+            margin-bottom: 5px;
+        }
+        &__header{
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+    }
+    .product-list{
+        margin-top: 100px;
+        padding: 0px;
+        h1{
+            margin-bottom: 25px;
+        }
+        &__1{
+            p:nth-child(1){
+                margin-top: 40px;
+                margin-bottom: 10px;
+            }
+            h2{
+                margin-bottom: 10px;
+            }
+        }
+        &__2,&__3{
+            div{
+                padding-left: 66px;
+            }
+        }
+        &__3{
+            p,h2{
+                width: 300px;
+            }
+            a{
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
+
+@include breakpoint_up(tv){
+    .contain{
+        width: 1566px;
+    }
+    .gift{
+        &__header{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@include breakpoint_up(xxlarge){
+    .contain{
+        width: 82.55%;
+    }
+    .service{
+        &__header{
+            padding-top: 30px;
+            padding-left: 30px;
+            height: 61px;
+            font-size: 1.5rem;
+        }
+        &__item{
+            padding-left: 30px;
+        }
+    }
+    // 
+    .products__carousel{
+     margin-left: 10px;
+    }
+    .carousel-caption{
+        padding-left: 65px;
+    }
+    .caption__txt{
+        margin-bottom: 70px;
+    }
+    .caption__header{
+        font-size: 2.5rem;
+    }
+    .caption__fact{
+        margin-bottom: 65px;
+    }
+    .carousel-item > img{
+        transform: translate(-25%,20%);
+    }
+
+    .gift{
+        &__header{
+            margin-bottom: 10px;
+        }
+    }
+    // news
+    .news{
+        margin-top: 160px;
+        padding: 0 60px;
+    }
+    .news__header{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 55px;
+        font-size: 1.5625rem;
+        line-height: 1.2;
+        color:$text_color;
+    }
+    .news__main{
+        padding-right: 22px;
+        &__img{
+            margin-bottom: 30px;
+        }
+        &__logo{
+            margin-bottom: 30px;
+        }
+        &__header{
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+        }
+        &__txt{
+            margin-bottom: 60px;
+        }
+    }
+    
+    .news__part{
+        &__img{
+            margin-right: 14px;
+        }
+        &__logo{
+            margin-bottom: 20px;
+        }
+        &__header{
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+    }
+    .news__part>div{
+      margin-bottom: 40px;
+    }
+    .product-list{
+        margin-top: 170px;
+        padding: 0 60px;
+        h1{
+            margin-bottom: 25px;
+        }
+        &__1{
+            p:nth-child(1){
+                margin-top: 70px;
+                margin-bottom: 14px;
+            }
+            h2{
+                margin-bottom: 15px;
+            }
+        }
+        &__2,&__3{
+            div{
+                padding-left: 66px;
+            }
+        }
+        &__3{
+            p,h2{
+                width: 400px;
+            }
+            a{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+// hide for mobile
+.hide-for-mobile{
+  @include breakpoint_down(large){
+      display: none;
+  }
+}
+
+// hide for desktop
+.hide-for-desktop{
+    @include breakpoint_up(large){
+        display: none;
+    }
+}
+  
+

@@ -1,0 +1,20 @@
+/* abstacts module files*/
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+/* font file*/
+@import './base/fonts';
+
+@import './base/base';
+@import './components/navbar';
+@import './layouts/header.scss';
+@import './layouts/service';
+@import './components/carousel';
+@import './layouts/gift';
+@import './layouts/brands';
+@import './layouts/news';
+@import './layouts/products';
+@import './layouts/info';
+@import './layouts/footer';
+@import './components/responsive';
+@import './components/responisve_mobile'

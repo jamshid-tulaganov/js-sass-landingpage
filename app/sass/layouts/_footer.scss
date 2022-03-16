@@ -1,0 +1,63 @@
+footer{
+    height: 600px;
+    background-color: $bgcolor_footer;
+}
+.footer-nav{
+    height: 500px;
+    background-color: $bgcolor_footer;
+  ul{
+      padding-top: 50px;
+      padding-left: 0;
+      list-style-type: none;
+      li{
+          line-height: 24px;
+          font-size: 1.5rem;
+          color:#777;
+          font-family: "Myriad Pro Regular";
+      }
+      a{
+          font-family: "Myriad Pro Light";
+          text-decoration: none;
+          color: $white;
+          font-size: 1rem;  
+      }
+  }
+}
+.contact__adress,.contact__email,.contact__location{
+    margin-top: 5px;
+}
+
+.footer-bottom{
+    height: 100px;
+    background-color: $bgcolor_bottom;
+    img{
+        display: inline-block;
+    }
+    p{
+        margin-left: auto;
+        color:$white;
+        font-size: 1.125rem;
+        font-family: "Myriad Pro Regular";
+        line-height: 1.59;
+    }
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 5px;
+    }
+    h4,p{
+        margin: 0;
+        padding: 0;
+    }
+    h4{
+        font-size: 1.5rem;
+        color:$white;
+    }
+    p{
+        color: #777;
+        font-size: 1rem;
+        font-family: "Myriad Pro Light";
+    }
+}

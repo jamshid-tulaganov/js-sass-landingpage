@@ -1,0 +1,72 @@
+.products__carusel{
+    margin: 0px 0px 0px 12px;
+    width: 59.34%;
+    height: 476px;
+    background-color: #000;
+}
+.carousel{
+ height: 100%;
+}
+.carousel-inner,.carousel-inner > div {
+    height: 100%;
+}
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+// display none
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display: none;
+}
+.carousel-item > img{
+    display: inline-block;
+    margin-left: auto;
+    transform: translate(-25%,20%);
+}
+
+.carousel-caption{
+    width: 55%;
+    left: 0;
+    top: 6%;
+    bottom: 0;
+    right: 0;
+    text-align: left;
+    padding-left: 65px;
+}
+.caption__txt{
+    margin: 0;
+    margin-bottom: 70px;
+    font-family: "Myriad Pro Regular";
+    font-size: 1rem;
+    color:#777;
+}
+.caption__header{
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: "Myriad Pro Regular";
+    font-size: 2.5rem;
+    line-height: 1.05;
+    color: rgb(243, 241, 241);
+}
+.caption__fact{
+    margin: 0;
+    margin-bottom: 65px;
+    font-family: "Myriad Pro Light";
+    font-size: 1rem;
+    color: rgb(243, 241, 241);
+}
+.caption__btn{
+    width: 129px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 17.5px;
+    font-family: "Myriad Pro Regular";
+    font-size: 1rem;
+    color: $white;
+    background-color: rgb(255, 175, 45);
+}
+
+  
+  

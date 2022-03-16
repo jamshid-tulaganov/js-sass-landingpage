@@ -1,0 +1,34 @@
+.gift{
+    width: 19.663648%;
+    height: 476px;
+    margin-left: auto;
+    padding: 215px 60px 60px 30px;
+    border:2px solid $bg_btn;
+    border-radius: 2px;
+    background-color:$white;
+    &__img{
+        margin-bottom: 15px;
+        width: 118px;
+        height: 146px;
+    }
+    &__txt{
+    padding: 0;
+    margin: 0;
+    font-size:1rem;
+    font-family: "MyriadPro";
+    color: rgb(18, 18, 18);
+    line-height: 1.667;
+    }
+    &__header{
+     padding: 0;
+     margin: 0;
+     margin-bottom: 24px;
+     font-size: 1.625rem;
+    }
+    &__link{
+        color:$bg_btn;
+        text-decoration: none;
+    }
+}
+
+  

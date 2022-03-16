@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "responsive website mobile and descktop",
+  "main": "index.js",
+  "scripts": {
+    "dev":"sass app/sass/main.scss dist/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamshidwizard/epam_project.git"
+  },
+  "keywords": [
+    "responsive",
+    "sass",
+    "mobile",
+    "desktop"
+  ],
+  "author": "Jamshid John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamshidwizard/epam_project/issues"
+  },
+  "homepage": "https://github.com/jamshidwizard/epam_project#readme"
+}

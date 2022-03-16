@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $bgcolor_main;
+    font-family: 'MYRIADPRO-REGULAR';
+}
+.flex{
+    display: flex;
+    &-jc-sb{
+        justify-content: space-between;
+    }
+    &-jc-c{
+        justify-content: center;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+    &-wrap{
+        flex-wrap: wrap;
+    }
+}
+
+
+// 

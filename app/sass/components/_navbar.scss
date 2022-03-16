@@ -1,0 +1,125 @@
+.contain{
+    width: 80.5%;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 48px;
+    background-color: $bgcolor_nav;
+    &__list{
+        height: 48px;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    &__link{
+        font-size: 1rem;
+        font-family: "Myriad Pro";
+        text-decoration: none;
+        line-height: 1.2;
+        text-align: center;
+        color:$white;
+        span{
+            margin-right: 7px;
+        }
+    }
+}
+
+.nav__bar{
+    width: 100%;
+    height: 64px;
+}
+.logo{
+    width: 14.230271%;
+    margin-right: 5.82%;
+    text-decoration: none;
+    &__img{
+        max-width: 100%;
+        height: auto;
+        margin-right: 8px;
+    }
+    span{
+        font-size: 2.0625rem;
+        font-family: "Myriad Pro";
+        line-height: 1.2;
+        text-align: left;       
+    }
+}
+
+.search{
+    width: 57%;
+    height: 35px;
+    margin-right: 45px;
+    select,input,button{
+        height: 100%;
+        outline:none;
+        border:none;
+    }
+    select{
+        width:10%;
+        background-color: $bgcolor_main;
+        border:1px solid rgb(232, 231, 231);
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.2;
+        border-radius: 5px 0 0 5px;
+    }
+    input{
+        width: 85%;
+        background-color: $white; 
+    }
+    &__btn{
+        display: inline-block;
+        width: 5%;
+        background-color: $bg_btn;
+        border-radius: 0 5px 5px 0;
+        i{
+            color:$white;
+            font-size: 25px;
+        }
+    }
+}
+
+
+.group{
+    width: 12%;
+    &__img{
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        margin-right: 7px;
+    }
+    &__txt{
+       width: 74%;
+       font-size: 0.875rem;
+       color:$footer__header;
+       line-height: 1.143;
+       font-family: "MyriadPro";
+    }
+}
+
+.shopping__cart{
+    .cart{
+        img{
+            display: inline-block;
+            width: 34px;
+            height: 34px;
+            margin-right: 13px;
+        }
+        &__value{
+            &__txt,&__cost{
+                padding: 0;
+                margin: 0;
+                font-size: 0.875rem;
+                color:$footer__header;
+                font-family: "MyriadPro";
+                line-height: 1.143;
+            }
+            &__cost{
+                padding-top: 4px;
+                font-weight: 700;
+               color: $text_color;
+            }
+        }
+    }
+}

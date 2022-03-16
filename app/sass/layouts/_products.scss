@@ -1,0 +1,158 @@
+.product-list{
+    margin-top: 170px;
+    padding: 0 60px;
+    &__heading{
+        width: 42.75%;
+        margin: 0 auto;
+        h1{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 25px;
+            font-size: 2.5rem;
+            color:$bgcolor_footer;
+            text-align: center;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 70px;
+            font-size: 1rem;
+            color:#787878;
+            text-align: center;
+        }
+    }
+    &--2{
+        width:54.375%;
+    }
+    &__1{
+        width: 41.18%;
+        height: 744px;
+        margin-right: 10px;
+        background-color: #fff;
+        background-image: url('../../../images/products/prod-3.1.png');
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        p,h2{
+            padding: 0;
+            width: 48.4%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        p:nth-child(1){
+            margin-top: 70px;
+            margin-bottom: 14px;
+            line-height: 1.2;
+            transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+        }
+        h2{
+            margin-bottom: 15px;
+            font-size: 1.875rem;
+            color: #181818;
+            line-height: 1.2;
+            transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+        }
+        p:nth-child(2){
+            font-size: 1rem;
+            color:#777;
+        }
+          
+    }
+    &__2{
+        width: 100%;
+        height: 419px;
+        padding-top: 120px;
+        padding-left: 250px;
+        margin-bottom: 10px;
+        background-image: url('../../../images/products/prod-3.0.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        div{
+            padding-left: 66px;
+        }
+        p:nth-child(1){
+            color:$white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            line-height: 1.2;
+            font-family: 'Myriad Pro Light';
+            -moz-transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+            -webkit-transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+            -ms-transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+
+        }
+        p,h2{
+            margin: 0;
+            padding: 0;
+            width: 424px;
+        }
+        h2{
+            width: 50%;
+            color:$white;
+            margin-bottom: 15px;
+            font-size: 1.875rem;
+            line-height: 1.2;
+            font-family: 'Myriad Pro Regular';
+            transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+        }
+        p:nth-child(2){
+            font-family: 'Myriad Pro Light';
+            font-size: 1rem;
+            color:#777;
+        }
+    }
+    &__3{
+        height: 316px;
+        width: 100%;
+        padding-top: 90px;
+        padding-left: 60px;
+        background-image: url('../../../images/products/prod-3.2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        div{
+            padding-left: 66px;
+        }
+        p{
+            font-family: 'Myriad Pro Light';
+        }
+        p,h2{
+            margin: 0;
+            padding: 0;
+            width: 400px;
+        }
+        p:nth-child(1){
+            color: rgb(18, 18, 18);
+            text-transform: uppercase;
+            line-height: 1.2;
+            -moz-transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+            -webkit-transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+            -ms-transform: matrix( 1.02364711232378,0,0,0.9999774563785,0,0);
+            margin-bottom: 14px;
+        }
+        h2{ 
+            font-family: 'Myriad Pro Regular';
+            margin-bottom: 15px;
+        }
+        a{  
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            color:#777;
+            i{
+                margin-left: 5px;
+            }
+        }
+    }
+    &__brand span{
+        font-family: 'Myriad Pro Regular';
+        text-transform: uppercase;
+        font-size: 1.667rem;
+        color:#181818;
+    }
+    &__txt{
+        color:#777;
+    } 
+
+}
